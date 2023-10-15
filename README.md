@@ -35,11 +35,6 @@ $ docker system df
 ```
 $ docker ps -a  
 ```
-### Mostrar informações das imagens
-
-```
-$ docker images    
-```
 
 ### Mostrar informações das imagens
 
