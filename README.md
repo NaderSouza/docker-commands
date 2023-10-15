@@ -17,6 +17,56 @@ $ docker version
 ```
 $ docker info
 ```
+
+### Mostrar informações e opções dos sub comandos.
+
+```
+$ docker system --help
+```
+
+
+### Mostrar informações de quanto e o que esta sendo utilizado dos diretórios do Docker 
+
+```
+$ docker system df
+```
+
+### Mostrar mais informações do sistema dos diretórios
+
+```
+$ docker system df -v
+```
+
+### Mostra os eventos que ocorrem na máquina 
+
+```
+$ docker system events
+```
+
+### Mostra os eventos que ocorrem na máquina de uma data e hora específica
+
+```
+$ docker system events --since 2002-05-01T14:20 (data exemplo) 
+```
+
+### Mostra os eventos que ocorrem na máquina de uma data e hora específica
+
+```
+$ docker system events --since 2002-05-01T14:20 (data exemplo) 
+```
+
+### Remove todos os conteúdos do seu sistema
+```
+$ docker system prune
+```
+
+### Remove todos os conteúdos específico do seu sistema 
+```
+$ docker system prune (image - network - volume)
+```
+
+
+
 <br>
 
 
