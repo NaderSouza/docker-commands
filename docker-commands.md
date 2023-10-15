@@ -49,12 +49,6 @@ $ docker system events
 $ docker system events --since 2002-05-01T14:20 (data exemplo) 
 ```
 
-### Mostra os eventos que ocorrem na máquina de uma data e hora específica
-
-```
-$ docker system events --since 2002-05-01T14:20 (data exemplo) 
-```
-
 ### Remove todos os conteúdos do seu sistema
 ```
 $ docker system prune
