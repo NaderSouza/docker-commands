@@ -51,12 +51,12 @@ $ docker system events --since 2002-05-01T14:20 (data exemplo)
 
 ### Remove todos os conteúdos do seu sistema
 ```
-$ docker system prune
+$ docker prune
 ```
 
 ### Remove todos os conteúdos específico do seu sistema 
 ```
-$ docker system prune (image - network - volume)
+$ docker prune (image - network - volume)
 ```
 
 
