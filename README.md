@@ -56,7 +56,7 @@ $ docker prune
 
 ### Remove todos os conteúdos específico do seu sistema 
 ```
-$ docker prune (image - network - volume)
+$ docker (image - network - volume) prune
 ```
 
 
