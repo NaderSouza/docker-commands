@@ -30,6 +30,46 @@ $ docker system --help
 ```
 $ docker system df
 ```
+### Mostrar informações do container 
+
+```
+$ docker ps -a  
+```
+### Mostrar informações das imagens
+
+```
+$ docker images    
+```
+
+### Mostrar informações das imagens
+
+```
+$ docker images    
+```
+
+### Remove um contêiner parado
+
+```
+$ docker rm <container_id> 
+```
+
+### Força a remoção de um contêiner em execução (usa SIGKILL)
+
+```
+$ docker rm -f <container_id>   
+```
+
+### Remove uma imagem - falhará se houver uma instância em execução dessa imagem, ou seja, um contêiner
+
+```
+$ docker rmi <image_id>    
+```
+### Força a remoção da imagem mesmo se ela for referenciada em vários repositórios, ou seja, o mesmo ID de imagem com vários nomes/tags - ainda falhará se houver um contêiner docker referenciando a imagem
+
+```
+$ docker rmi -f <image_id> 
+```
+ 
 
 ### Mostrar mais informações do sistema dos diretórios
 
