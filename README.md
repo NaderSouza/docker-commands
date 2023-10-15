@@ -1,5 +1,11 @@
 # Comandos, ajuda e dicas do Docker - Traduzido (credits to [bradtraversy](https://gist.github.com/bradtraversy/89fad226dc058a41b596d586022a9bd3))
 
+### Explorar pasta pelo explorador de arquivo
+
+```
+$ explorer.exe .
+```
+
 ### Mostrar comandos e comandos de gerenciamento
 
 ```
